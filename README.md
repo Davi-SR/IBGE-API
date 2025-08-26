@@ -60,9 +60,4 @@ streamlit run app.py
 ```
 Após iniciar, abra o link indicado pelo Streamlit no navegador (geralmente http://localhost:8501).
 
-### 📂 Estrutura do Projeto
-
-### 📦 seu-repositorio
- ┣ 📜 app.py           # Código principal da aplicação
- ┣ 📜 requirements.txt # Dependências
- ┗ 📜 README.md        # Documentação
+✨ Desenvolvido com ❤️ usando Streamlit
