@@ -25,30 +25,39 @@ Aplicação em **Python + Streamlit** que consome a [API de Nomes do IBGE](https
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
-
+```
 2. Crie e ative um ambiente virtual (opcional, mas recomendado):
 
-bash
+Linux/Mac:
+
+```bash
 
 Copy
 python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
+source venv/bin/activate
+```
+Windows:
 
+```bash
+
+Copy
+python -m venv venv
+venv\Scripts\activate
+```
 3. Instale as dependências:
 
-bash
+```bash
 
 Copy
 pip install -r requirements.txt
-
+```
 4. Execute a aplicação:
 
-bash
+```bash
 
 Copy
 streamlit run app.py
-
+```
 Após iniciar, abra o link indicado pelo Streamlit no navegador (geralmente http://localhost:8501).
 📊 Exemplo de Uso
 
