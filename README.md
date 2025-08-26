@@ -1,64 +1,65 @@
-📊 Web App Nomes - IBGE
+# 📊 Web App Nomes - IBGE
 
-Aplicação em Python + Streamlit que consome a API de Nomes do IBGE para mostrar a evolução da popularidade de um nome ao longo das décadas.
+Aplicação em **Python + Streamlit** que consome a [API de Nomes do IBGE](https://servicodados.ibge.gov.br/api/docs/nomes?versao=2) para mostrar a evolução da popularidade de um nome ao longo das décadas.
 
-🚀 Tecnologias utilizadas
+---
 
-Python 3.8+
+## 🚀 Tecnologias utilizadas
+- [Python 3.8+](https://www.python.org/)
+- [Streamlit](https://streamlit.io/)
+- [Pandas](https://pandas.pydata.org/)
+- [Requests](https://docs.python-requests.org/)
 
-Streamlit
+---
 
-Pandas
+## ⚙️ Funcionalidades
+- Consultar qualquer nome disponível na base do IBGE  
+- Exibir tabela com a frequência do nome por década  
+- Mostrar gráfico interativo de evolução da popularidade  
 
-Requests
+---
 
-⚙️ Funcionalidades
+## 📥 Instalação e Execução
 
-Consultar qualquer nome disponível na base do IBGE
-
-Exibir tabela com a frequência do nome por década
-
-Mostrar gráfico interativo de evolução da popularidade
-
-📥 Instalação e Execução
-
-Clone este repositório:
-
+### 1. Clone este repositório:
+```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
+2. Crie e ative um ambiente virtual (opcional, mas recomendado):
 
-Crie e ative um ambiente virtual (opcional, mas recomendado):
+bash
 
+Copy
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 
+3. Instale as dependências:
 
-Instale as dependências:
+bash
 
+Copy
 pip install -r requirements.txt
 
+4. Execute a aplicação:
 
-Execute a aplicação:
+bash
 
+Copy
 streamlit run app.py
 
-
 Após iniciar, abra o link indicado pelo Streamlit no navegador (geralmente http://localhost:8501).
-
 📊 Exemplo de Uso
 
 Digite um nome no campo de busca para visualizar:
 
-A distribuição do nome por década em forma de tabela
-
-Um gráfico mostrando sua evolução temporal
+    A distribuição do nome por década em forma de tabela
+    Um gráfico mostrando sua evolução temporal
 
 📂 Estrutura do Projeto
+
 📦 seu-repositorio
- ┣ 📜 app.py          # Código principal da aplicação
+ ┣ 📜 app.py           # Código principal da aplicação
  ┣ 📜 requirements.txt # Dependências
  ┗ 📜 README.md        # Documentação
-
-✨ Desenvolvido com ❤️ usando Streamlit
