@@ -26,7 +26,7 @@ Aplicação em **Python + Streamlit** que consome a [API de Nomes do IBGE](https
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
-2. Crie e ative um ambiente virtual (opcional, mas recomendado):
+### 2. Crie e ative um ambiente virtual (opcional, mas recomendado):
 
 Linux/Mac:
 
@@ -44,14 +44,14 @@ Copy
 python -m venv venv
 venv\Scripts\activate
 ```
-3. Instale as dependências:
+### 3. Instale as dependências:
 
 ```bash
 
 Copy
 pip install -r requirements.txt
 ```
-4. Execute a aplicação:
+### 4. Execute a aplicação:
 
 ```bash
 
@@ -59,16 +59,10 @@ Copy
 streamlit run app.py
 ```
 Após iniciar, abra o link indicado pelo Streamlit no navegador (geralmente http://localhost:8501).
-📊 Exemplo de Uso
 
-Digite um nome no campo de busca para visualizar:
+### 📂 Estrutura do Projeto
 
-    A distribuição do nome por década em forma de tabela
-    Um gráfico mostrando sua evolução temporal
-
-📂 Estrutura do Projeto
-
-📦 seu-repositorio
+### 📦 seu-repositorio
  ┣ 📜 app.py           # Código principal da aplicação
  ┣ 📜 requirements.txt # Dependências
  ┗ 📜 README.md        # Documentação
